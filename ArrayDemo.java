@@ -11,12 +11,24 @@ public class ArrayDemo {
         // {
         //     System.out.println(i);
         // }
-        for(i=0;i<arr.length;i++)
+
+        // for(i=0;i<arr.length;i++)
+        // {
+        //     val = arr[i] + val;
+        //     System.out.println(val);
+        // }
+        // int avg =val/arr.length;
+        // System.out.println("The Avereage is " + avg);
+
+          int max_val = arr[0];
+         for(i=0;i<arr.length;i++)
         {
-            val = arr[i] + val;
-            System.out.println(val);
+           if(arr[i] > max_val)
+           {
+            max_val = arr[i];
+           }
         }
-        int avg =val/arr.length;
-        System.out.println("The Avereage is " + avg);
+        System.out.println(max_val);
+
     }
 }
