@@ -2,7 +2,7 @@ import java.util.*;
 
 public class ArrayDemo {
 
-    public static void main(String[] args) {
+    public static void main(StringCode[] args) {
         System.out.println("Hello hi");
         int[] arr = {5,7,3,8,7,4,3};
         int val=0;
